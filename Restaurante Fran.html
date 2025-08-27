@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Resto Fran</title>
-</head>
-<body style="background-image: url('fondo-ciudad.jpg'); background-size: cover; background-repeat: no-repeat;">
-<h1>Bienvenidos</h1>
-<h2>Gastronomía</h2>
-<h3>Eventos, Cumpleaños</h3>
+<body>
+<header>
+    <table>
+       <tr>
+           <td><h1>Perfil del usuario</h1></td>
+  <td>  <img src="fondo-ciudad.jpg", height=50px, width=50px> </td>
+        </tr>
+    </table>
+</header>
+<main>
 
+<article>
+    <h1>Esta Pagina muestra el perfil del usuario</h1>
+</article>
+        <fieldset>
+            <legend>Cambia tus datos personales</legend>
+            <label for="texto">texto</label>
+            <input type="text" name="texto" id="texto">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <textarea name="textarea" id="textarea"></textarea>
+        </fieldset>
+    </form>
+</main>
+<footer>
+<h1>Contactame</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Email</th>
+            <td>gordotonga@gmail.com</td>
+        </tr>
+        <tr>
+            <th>Telefono</th>
+            <td>26161262173</td>
+        </tr>
+        <tr>
+            <th>Instagram</th>
+           <td> <a href= "https://www.instagram.com/"> instagram  </a>
+           </td>
+        </tr>
+        </thead>
+    </table>
 
-<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=500&q=60"
-     alt="Plato gourmet" height="200" width="201">
-
-<p>
-    Este espacio está dedicado a los amantes de la buena comida y el entretenimiento.
-    Aquí encontrarás recomendaciones de restaurantes, reseñas de eventos y actividades
-    para disfrutar de tu ciudad al máximo. Nuestro objetivo es combinar la experiencia
-    culinaria con el ocio, para que cada salida sea una oportunidad de descubrir nuevos sabores
-    y compartir momentos únicos con amigos y familiares.
-</p>
-
-<h2>Descripción</h2>
-<ul>
-    <li>gastronómico</li>
-    <li>cultural</li>
-    <li>social</li>
-    <li>turístico</li>
-</ul>
-
-<a href="https://www.instagram.com/" target="_blank">Visita nuestro Instagram</a>
-
-<div></div>
-
-<table>
-    <tr><th>Restaurante</th><th>Especialidad</th> <th>Zona</th></tr>
-    <tr><td>Resto Fran</td><td>Comida gourmet</td> <td>Centro</td></tr>
-</table>
-
-<form>
-    <label>Correo electrónico</label>
-    <input type="email">
-</form>
-
-<button>Enviar</button>
+</footer>
 </body>
 </html>
