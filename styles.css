@@ -1,0 +1,23 @@
+.encabezado {
+    color: #84482D;
+    text-align: center ;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    color : #1C1D1F;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #BE6841;
+}
+
+.image-container img {
+    width: 150px;
+    margin: 10px;
+}
